@@ -1,4 +1,4 @@
-package Mistery_Game
+package Mistery_Game;
 
 import java.util.*;
 
