@@ -35,10 +35,10 @@ class Game {
         write("Vamos a jugar un juego, ya que sos tan ser usador...");
         write("No es un jueguito tan inocente, para que sepas.");
         write("Las consecuencias de fallar pueden ser... serias.");
-        write("Yo no voy a parar de tirarse pedos en tu cara por el resto de las noches si perdés.");
-        write("Lo peor de todo es que ni te vas a poder defender porque vas a estar dormida.");
+        write("No pararé de torturate por el resto de las noches si pierdes.");
+        write("Lo peor de todo es que ni podrás evitarlo.");
         write("Sólo te vas a levantar con una sensación rara, sin saber bien qué pasó.");
-        write("El olor a pedo se va a volver tu realidad... a menos que triunfes.");
+        write("La tortura se volverá tu realidad... a menos que triunfes.");
         write("De tener éxito... la recompensa será genial... como yo.");
         write("Nunca más te va a volver a pasar aquello que te pasó en lo de Fede...        pero YA BASTA, a jugar.");
         write("Te animás?");
@@ -46,21 +46,21 @@ class Game {
         System.out.print("Usuario: ");
         String respuesta = sc.nextLine();
         if (respuesta.equalsIgnoreCase("si") || respuesta.equalsIgnoreCase("sí")) {
-            write("Así me gusta... gil");
+            write("Así me gusta... ");
         } else {
-            write("Mirá que si no te animás te van a doler las chichis por siempre, yo soy una especie de espíritu chichero que ataca a los que no se animan.");
+            write("Mirá que si no te animás la tortura será demasiado, yo soy una especie de espíritu chichero que ataca a los que no se animan.");
             write("Y... que va a ser, te animás?");
             System.out.print("Usuario: ");
             respuesta = sc.nextLine();
             if (respuesta.equalsIgnoreCase("si") || respuesta.equalsIgnoreCase("sí")) {
-                write("Así me gusta... gil");
+                write("Así me gusta... ");
             } else {
                 write("BueBueBueBueBue...........bue");
-                write("Dale pone que si pesada.");
+                write("Dale pone que sí pesado.");
                 System.out.print("Usuario: ");
                 respuesta = sc.nextLine();
                 if (respuesta.equalsIgnoreCase("si") || respuesta.equalsIgnoreCase("sí")) {
-                    write("Así me gusta... gil");
+                    write("Así me gusta... ");
                 } else {
                     write("Bueno, no me importa, no es una democracia esto...");
                 }
@@ -109,7 +109,7 @@ class Game {
             respuesta = sc.nextLine();
         }
 
-        write("Bien niñita... Ahora, a ese minotauro solo él lo pudo derrotar: ");
+        write("Bien usuario... Ahora, a ese minotauro solo él lo pudo derrotar: ");
 
         System.out.print("Usuario: ");
         respuesta = sc.nextLine();
@@ -121,12 +121,12 @@ class Game {
         }
 
         write("VamoLoPi...");
-        write("Las mañanas serían terribles si no fuera por él... si pedos en tu cara no querés, buscad la guía de aquél.");
+        write("Las mañanas serían terribles si no fuera por él... si tortura eterna no querés, buscad la guía de aquél.");
 
         System.out.print("Usuario: ");
         respuesta = sc.nextLine();
 
-        while (!respuesta.equalsIgnoreCase("pedos por doquier")) {
+        while (!respuesta.equalsIgnoreCase("un verdadero amigo")) {
             write("No.");
             System.out.print("Usuario: ");
             respuesta = sc.nextLine();
@@ -141,9 +141,9 @@ class Game {
             Thread.currentThread().interrupt();
         }
 
-        write("Andá, no me des más bola a mi mujer.");
+        write("Veo que pudiste descrifrar mi acertijo");
         write("Ya el juego llegó a su terminación.");
-        write("Te amo cabeza de zapato.");
+        write("Este cuarto va a realizar la explotación");
         write("10");
         write("9");
         write("8");
