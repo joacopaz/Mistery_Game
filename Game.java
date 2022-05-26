@@ -14,7 +14,7 @@ class Game {
 
     private static void write(String text) {
         int i;
-        System.out.print("Jacobim: ");
+        System.out.print("Ghost: ");
         for (i = 0; i < text.length(); i++) {
             playSound.play(1);
             System.out.printf("%c", text.charAt(i));
